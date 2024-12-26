@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color:#081735;
+    font-family: 'Inter', sans-serif;    
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-container {
+    display: flex; 
+    height: fit-content; 
+  }
+  
+  /* Left half styles */
+  .left-half {
+    flex: 1; 
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .left-half-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .left-half-inner .main-containers{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 4px 15px rgba(8, 23, 53, 0.16);
+    border-color: rgba(216, 218, 229, 1);
+    border-radius: 40px;
+  }
+  .left-half-inner #main1{
+    width: fit-content;
+    
+  }
+  .left-half-inner .heading{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:10px;
+    padding: 20px;
+
+  }
+  .left-half-inner .heading h2{
+    font-weight: 600;
+
+  }
+
+
+  .borderImage{
+    height: auto;
+    width: 250px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left:0;
+  }
+ 
+  .content .content-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding: 30px 20px;
+
+  }
+  .content-inner #contents h2{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  .content-inner #contents p{
+    font-size: 18px;
+    color:black;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+  .main-containers .hr-line{
+    margin-top: 10px;
+    color:transparent;
+    border-color: transparent;
+    height: 1px;
+    background-color: rgba(216, 218, 229, 1);
+  }
+  
+  #main2 .heading{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 265px;
+    height: 164px;
+
+
+}
+  #main2 .heading-image img{
+    width: 56px;
+    height: 56.77px;
+
+  }
+  #main2 .heading .head1{
+    color:rgba(0, 73, 198, 1)
+  }
+  #main2 .heading .head1 .text{
+    color:#000;
+  }
+  .page-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+  }
+    /* Right half styles */
+    .right-half {
+      flex: 1; 
+      background-color:rgba(250, 250, 250, 1); 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding:0 30px;
+    }
+    .right-half-inner{
+      background-color: white;
+      border: 1px solid rgba(213, 215, 218, 1);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 10px 20px 35px 20px;
+    }
+    .right-half h1, h2, p{
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-family: 'Inter', sans-serif;
+  
+    }
+    .right-half .main-buttons button{
+     width: 311px;
+     height: 60px;
+      font-size: 20px;
+    }
+    .main-buttons .btn1{
+      border-radius: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: rgba(250, 250, 250, 1);
+      border: 1px solid rgba(213, 215, 218, 1);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: center;
+      color:rgba(65, 70, 81, 1);
+      border:1px solid rgba(233, 234, 235, 1)
+    }
+    .main-buttons .btn2{
+      border-radius: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: rgba(250, 250, 250, 1);
+      border: 1px solid rgba(213, 215, 218, 1);
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 28px;
+      color:rgba(65, 70, 81, 1);
+      border:1px solid rgba(233, 234, 235, 1)
+  }
+    .main-logo{
+      width: 35.62px;
+      height: 40px;
+    }
+    .right-half h1{
+      font-family: 'Satoshi', sans-serif;
+      line-height: 33px;
+      padding: 30px 0 10px 0;
+    }
+    .right-half h2{
+      font-weight: 600;
+      padding: 20px 0;
+      font-size: 32px;
+      line-height: 48px;
+      font-family: 'Inter', sans-serif;
+  
+    }
+    .right-half-inner{
+      margin:20px 0 0 0;
+  
+    }
+    .platform-buttons{
+      padding: 5px 108px 20px 108px;
+      border: 1px solid rgba(213, 215, 218, 1);
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+    .platform-buttons button{
+      display: block;
+      margin: 0 auto;
+      width: 446px;
+      height: 57.59px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 1);
+      border-color: rgba(216, 218, 229, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      gap: 10px; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+  
+    }
+    .platform-buttons button img{
+      width: 24px;
+      height: 24px;
+    }
+    .privacyPolicy{
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      padding: 40px;
+    }
+  .left-half,
+  .right-half {
+    flex: 1;
+  }
+  
+  .left-half-inner,
+  .right-half-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-half-inner {
+   width: 90%;
+  }
+  
+  .main-buttons {
+    display: flex;
+  }
+  
+  .platform-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 90%;
+    padding: 10px 20px 35px 20px;
+    background-color: white;
+  }
+
+  .platform-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .platform-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .btn1, .btn2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .btn1.active,
+  .btn2.active {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  .no-underline {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+#main2{
+  margin-left:220px;
+}
+.main-buttons button{
+  justify-content: center;
+}
+/* Media query for below 768px */
+  @media (max-width: 768px) {
+    .left-half{
+      display: none;
+    }
+
+    .right-half-inner{
+      padding: 0;
+      width: 100%
+    }
+    .right-half .main-buttons button{
+      width:100%;
+    }
+    .main-buttons{
+      margin-bottom: 20px
+    }
+    .platform-buttons{
+      width: 90%;
+      padding: 0;
+      padding-top: 10px;
+      padding-bottom: 20px
+    }
+      .privacyPolicy{
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+      }
+      .right-half{
+        width:100%;
+        height: fit-content
+
+      }
+      .right-half-inner{
+        width: 90%;
+        margin:20px 0 0 0;
+
+      }
+      .right-half-inner h1:nth-child(1){
+        padding-top: 20px;
+      }
+      .platform-buttons button{
+        width:90%;
+      }
+      .main-buttons{
+        width: 90%;
+
+      }
+      .main-buttons .btn1{
+        width: 50%;
+        margin: 0 auto;
+      }
+      .main-buttons .btn2{
+        width: 50%;
+        margin: 0 auto;
+      }
+      .right-half 
+      {
+        padding: 0
+      }
+      button{
+        justify-content: center ;
+      }
+      .right-half h2{
+        font-size: 24px;
+      }
+      .right-half-inner h1:nth-child(1){
+        font-size: 30px;
+      }
+}
+  
